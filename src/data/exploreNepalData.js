@@ -254,5 +254,16 @@ const exploreNepal = [
       "Suddhodhan Park is a place of historical significance, named after King Suddhodhan, the father of Lord Buddha. The park is known for its peaceful ambiance, making it a great spot for meditation and relaxation.",
     category: "Historical/Recreational",
   },
+  {
+    province: "Province no. 03",
+    district: "Chitwan",
+    municipality: "Ratnanagar Municipality",
+    address: "Ratnanagar",
+    name: "Chitwan National Park",
+    description:
+      "Sauraha is a prominent village in south-central Nepal's Chitwan District, best recognized as the major gateway providing access to the renowned Chitwan National Park for wildlife tourism.",
+    category: "National park",
+  }
+
 ];
 export default exploreNepal;
