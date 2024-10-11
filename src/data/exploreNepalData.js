@@ -254,5 +254,15 @@ const exploreNepal = [
       "Suddhodhan Park is a place of historical significance, named after King Suddhodhan, the father of Lord Buddha. The park is known for its peaceful ambiance, making it a great spot for meditation and relaxation.",
     category: "Historical/Recreational",
   },
+  {
+    province: "Province no. 02",
+    district: "Janakpur",
+    municipality: "Janakpur Sub-Metropoliton City",
+    address: "Janakpur",
+    name: "Janaki Mandir",
+    description:
+      "anakpur is a historical and cultural city, known for being the birthplace of Goddess Sita and the center of the Mithila culture. The Janaki Mandir, also known as the Temple of Sita, is a significant Hindu pilgrimage site.",
+    category: "Historical/Religious",
+  }
 ];
 export default exploreNepal;
