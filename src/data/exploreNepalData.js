@@ -254,5 +254,15 @@ const exploreNepal = [
       "Suddhodhan Park is a place of historical significance, named after King Suddhodhan, the father of Lord Buddha. The park is known for its peaceful ambiance, making it a great spot for meditation and relaxation.",
     category: "Historical/Recreational",
   },
+  {
+    province: "Lumbini Province",
+    district: "Rupandehi",
+    municipality: "Tilottama municipality",
+    address: "Kotihawa",
+    name: "Chiliya Jungle ",
+    description:
+      "Chiliya Jungle is a place known for picnic, refreshment and entertainment.",
+    category: "Entertainment ",
+  }
 ];
 export default exploreNepal;
