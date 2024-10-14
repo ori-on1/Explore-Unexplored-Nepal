@@ -254,5 +254,15 @@ const exploreNepal = [
       "Suddhodhan Park is a place of historical significance, named after King Suddhodhan, the father of Lord Buddha. The park is known for its peaceful ambiance, making it a great spot for meditation and relaxation.",
     category: "Historical/Recreational",
   },
+  {
+    province: "Province no. 01",
+    district: "Sunsari",
+    municipality: "Dharan Sub-Metropoliton City",
+    address: "Dharan",
+    name: "Dharan Ghantaghar",
+    description:
+      "Dharan Ghantaghar is a place of historical significance and visiting area",
+    category: "Historical/Tourism",
+  }
 ];
 export default exploreNepal;
