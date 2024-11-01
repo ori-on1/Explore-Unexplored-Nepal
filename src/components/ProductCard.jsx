@@ -1,12 +1,12 @@
 import React from 'react';
-import getCategoryImage from '../utils/getCategoryImage'; 
+// import getCategoryImage from '../utils/getCategoryImage'; 
 
 const ProductCard = ({ location }) => {
-  const image = getCategoryImage(location.category); 
+  // const image = getCategoryImage(location.category); 
 
   return (
     <div className="card">
-      <img src={image} className="card-img-top" alt={location.name} />
+      <img src={location.image} className="card-img-top" alt={location.name} loading='lazy'/>
       <div className="card-body">
         <h5 className="card-title">{location.name}</h5>
         <p className="card-text"><strong>Province:</strong> {location.province}</p>

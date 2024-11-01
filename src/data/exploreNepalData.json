@@ -1,443 +1,449 @@
-
-  [ 
-    {
-      "province": "Koshi",
-      "district": "Dharan",
-      "municipality": "Dharan sub metropolitan city",
-      "address": "Bijayapur",
-      "name": "BudhaSubba Temple",
-      "image" : "/Images/budhasubba.jpg",
-      "description": " Budhasubba Mandir is uniquely notable for its blend of local folklore and the ritual of animal sacrifices, highlighting the community's spiritual and cultural identity",
-      "category": "Religious"
-    },
-    {
-      "province": "Koshi",
-      "district": "Solukhumbu",
-      "municipality": "Khumbu Pasanglhamu Rural Municipality ",
-      "address": "Sagarmatha National Park, Solukhumbu District",
-      "name": "Gokyo Lakes",
-      "image": "/Images/gokyo.jpg",
-      "description": "A series of high-altitude lakes known for their breathtaking views and trekking routes in the Everest region.",
-      "category": "Tourism"
-    },    
-    {
-      "province": "Koshi",
-      "district": "Ilam",
-      "municipality": "Mai Municipality",
-      "address": "Mai Pokhari",
-      "name": "Mai Pokhari",
-      "image": "/Images/mai_pokhari.jpg",
-      "description": "Mai Pokhari is a serene pond surrounded by lush forests and is a popular spot for picnics and nature walks.",
-      "category": "Nature"
-    },
-    {
-      "province": "Koshi",
-      "district": "Dhankuta",
-      "municipality": "Dhankuta Municipality",
-      "address": "Hile",
-      "name": "Hile",
-      "image": "/Images/hile.jpg",
-      "description": "Hile is a picturesque town famous for its stunning views of the Himalayas and is a popular stop for trekkers heading to the eastern regions.",
-      "category": "Nature"
-    },    
-    {
-      "province": "Koshi",
-      "district": "Udayapur",
-      "municipality": "Udayapur Municipality",
-      "address": "Brahmakhal",
-      "name": "Brahmakhal",
-      "image": "/Images/brahmakhal.jpg",
-      "description": "Brahmakhal is a scenic area in Udayapur known for its beautiful landscapes and cultural significance, making it ideal for trekking and outdoor activities.",
-      "category": "Nature"
-    },    
-    {
-      "province": "Koshi",
-      "district": "Makalu-Barun National Park",
-      "municipality": "Makalu Rural Municipality",
-      "address": "Makalu Base Camp",
-      "name": "Makalu Base Camp",
-      "image": "/Images/makalu.jpg",
-      "description": "Makalu Base Camp offers stunning views of the world's fifth-highest mountain, Makalu, and is a popular trekking destination in the eastern Himalayas.",
-      "category": "Trekking"
-    },    
-    {
-      "province": "Koshi",
-      "district": "Taplejung",
-      "municipality": "Pathivara Rural Municipality",
-      "address": "Pathivara",
-      "name": "Pathivara Temple",
-      "image": "/Images/pathivara.jpg",
-      "description": "Pathivara Temple is a revered Hindu temple dedicated to the goddess Pathivara, located at an altitude of 3,794 meters (12,448 feet), offering stunning views of the surrounding mountains.",
-      "category": "Tourism"
-    },    
-    {
-      "province": "Koshi",
-      "district": "Ilam",
-      "municipality": "Suryodaya Municipality ",
-      "address": "Bijayapur",
-      "name": "Kanyam",
-      "image" : "/Images/kanyam.jpg",
-      "description": " Kanyam is a picturesque tea garden village in eastern Nepal, renowned for its lush landscapes and serene atmosphere",
-      "category": "Tourism"
-    },
-    {
-      "province": "Koshi",
-      "district": "Khotang",
-      "municipality": "Halesi Tuwachung Municipality ",
-      "address": " Mahadevasthan,",
-      "name": "Halesi Mahadev",
-      "image" : "/Images/halesimahadev.jpg",
-      "description": " It is cave and temple which has  venerated pilgrimage site for Hindus, Buddhists and Kirat.",
-      "category": "Religious"
-    },
-    {
-      "province": "Koshi",
-      "district": "Jhapa",
-      "municipality": "Kankai Municipality",
-      "address": "Kankai",
-      "name": "Kankai",
-      "image": "/Images/kankai.jpg",
-      "description": "Kankai is known for the Kankai Mai Temple, a significant pilgrimage site, and its surrounding natural beauty, attracting both pilgrims and tourists.",
-      "category": "Pilgrimage"
-    },    
-    {
-      "province": "Madesh",
-      "district": "Dhanusa",
-      "municipality": "Janakpur sub-metropolitan city ",
-      "address": " Janakpur",
-      "name": "Janakpurdham",
-      "image" : "/Images/janakpur.jpg",
-      "description": " It is is renowned as the birthplace of Sita from the Ramayana and a center of Mithila culture and art.",
-      "category": "Religious"
-    },
-    {
-      "province": "Madhesh Province",
-      "district": "Morang",
-      "municipality": "Biratnagar Metropolitan City",
-      "address": "Biratnagar",
-      "name": "Siddhi Vinayak Temple",
-      "image": "/Images/birat.jpg",
-      "description": "Siddhi Vinayak Temple is dedicated to Lord Ganesha and is a significant site for worship, especially during festivals.",
-      "category": "Pilgrimage"
-    },    
-    {
-      "province": " Madesh Province ",
-      "district": "Bara",
-      "municipality": "Gadhimai Municipality",
-      "address": "Gadhimai",
-      "name": "Gadhimai Temple",
-      "image": "/Images/gadhimai.jpg",
-      "description": "Gadhimai Temple is a famous Hindu temple dedicated to the goddess Gadhimai, known for its large animal sacrifice festival held every five years, attracting thousands of devotees.",
-      "category": "Tourism"
-    },    
-    {
-      "province": "Bagmati",
-      "district": "Rasuwa",
-      "municipality": "Langtang Rural Municipality",
-      "address": "Gosaikunda",
-      "name": "Gosaikunda Lake",
-      "image": "/Images/gosaikunda.jpg",
-      "description": "Gosaikunda Lake is a sacred alpine lake situated at an altitude of 4,380 meters (14,370 feet) and is an important pilgrimage site for Hindus.",
-      "category": "Tourism"
-    },
-    {
-      "province": "Bagmati",
-      "district": "Nuwakot",
-      "municipality": "Kakani Rural Municipality",
-      "address": "Kakani",
-      "name": "Kakani",
-      "image": "/Images/kakani.jpg",
-      "description": "Kakani is a serene hill station near Kathmandu, known for its panoramic views of the Himalayas and strawberry farming.",
-      "category": "Tourism"
-    },   
-    {
-      "province": "Bagmati Province",
-      "district": "Makwanpur",
-      "municipality": "Makwanpur Gadhi",
-      "address": "Chitlang, Makwanpur District",
-      "name": "Chitlang",
-      "image": "/Images/chitlang.jpg",
-      "description": "Chitlang is a charming village in the Makwanpur District, known for its rich cultural heritage, stunning landscapes, and hiking opportunities. It's a popular destination for both local and international tourists.",
-      "category": "Tourism"
-    },         
-    {
-      "province": "Bagmati",
-      "district": "Kathmandu",
-      "municipality": "Kathmandu Metropolitan City",
-      "address": "Gaushala",
-      "name": "Pashupatinath Temple",
-      "image" : "/Images/pasupatinath.jpg",
-      "description": "It is devoted to the Hindu god Shiva in his form as Pashupati, protector of animals.",
-      "category": "Religious"
-    },
-    {
-      "province": "Bagmati",
-      "district": "Lalitpur",
-      "municipality": "Lalitpur Metropolitan City",
-      "address": "Patan",
-      "name": "Krishna Mandir",
-      "image" : "/Images/krishnamandir-patan.jpg",
-      "description": "It was a cultural stronghold of the Malla kings of Kathmandu valley",
-      "category": "Religious"
-    },
-    {
-      "province": "Bagmati",
-      "district": "Bhaktapur",
-      "municipality": "Bhaktapur Metropolitan City",
-      "address": "Changunarayan",
-      "name": "Changu Narayan Temple",
-      "image" : "/Images/changunarayan.jpg",
-      "description": "It is the oldest temple in Nepal dating back to the 5th century.",
-      "category": "Religious"
-    },
-    {
-      "province": "Bagmati",
-      "district": "Lalitpur",
-      "municipality": "Lalitpur Metropolitan City",
-      "address": "Patan",
-      "name": "Patan Durbar Square",
-      "image": "/Images/patan.jpg",
-      "description": "Patan Durbar Square is a UNESCO World Heritage Site known for its stunning architecture, ancient temples, and rich history.",
-      "category": "Cultural Heritage"
-    },  
-    {  
-      "province": "Bagmati",
-      "district": "Bhaktapur",
-      "municipality": "Nagarkot Municipality",
-      "address": "Nagarkot",
-      "name": "Nagarkot",
-      "image": "/Images/nagarkot.jpg",
-      "description": "Nagarkot is a popular hill station near Kathmandu, known for its stunning sunrise views over the Himalayas and trekking opportunities.",
-      "category": "Tourism"
-    },
-    {
-      "province": "Bagmati",
-      "district": "Sindhupalchok",
-      "municipality": "Panch Pokhari Thangpal Rural Municipality",
-      "address": "Panch Pokhari",
-      "name": "Panch Pokhari",
-      "image": "/Images/panch_pokhari.jpg",
-      "description": "Panch Pokhari is a sacred site consisting of five lakes, popular among pilgrims and trekkers for its stunning scenery and cultural significance.",
-      "category": "Pilgrimage"
-    }, 
-    {
-      "province": "Bagmati",
-      "district": "Rasuwa",
-      "municipality": "Langtang Rural Municipality",
-      "address": "Langtang Valley",
-      "name": "Langtang Valley",
-      "image": "/Images/langtang.jpg",
-      "description": "Langtang Valley is a popular trekking destination known for its stunning landscapes, diverse wildlife, and traditional Tamang culture.",
-      "category": "Trekking"
-    },
-    {
-      "province": "Bagmati",
-      "district": "Kathmandu",
-      "municipality": "Kathmandu Metropolitan City",
-      "address": "Phulchoki",
-      "name": "Phulchoki Hill",
-      "image": "/Images/phulchoki.png",
-      "description": "Phulchoki is the highest hill surrounding the Kathmandu Valley, offering beautiful hiking trails, panoramic views, and diverse flora and fauna.",
-      "category": "Hiking"
-    },    
-    {
-      "province": "Gandaki",
-      "district": "Kaski",
-      "municipality": "Ghandruk Rural Municipality",
-      "address": "Ghandruk",
-      "name": "Ghandruk",
-      "image": "/Images/ghandruk.jpg",
-      "description": "Ghandruk is a charming Gurung village that offers stunning views of the Annapurna range and serves as a gateway for treks in the Annapurna region.",
-      "category": "Cultural Tourism"
-    },
-    {
-      "province": "Gandaki Province",
-      "district": "Kaski",
-      "municipality": "Pokhara Metropolitan City",
-      "address": "Pokhara, Kaski District",
-      "name": "Tal Barahi Temple ",
-      "image": "/Images/Tal_barahi.jpg",
-      "description": "Located in Phewa Lake, this temple lake is known for its cultural significance and beautiful surroundings.",
-      "category": "Tourism"
-    },     
-      "address": "Near Pokhara, Kaski District",
-      "name": "Begnas Lake",
-      "image": "/Images/begnas_lake.jpg",
-      "description": "Begnas Lake is a serene freshwater lake located about 15 km east of Pokhara. It is known for its tranquil environment, picturesque surroundings, and boating opportunities.",
-      "category": "Tourism"
-    },             
-    {
-      "province": "Gandaki",
-      "district": "Mustang",
-      "municipality": "Thasang Rural Municipality",
-      "address": "Muktinath",
-      "name": "Muktinath Temple",
-      "image": "/Images/muktinath.jpg",
-      "description": "Muktinath is a sacred site for both Hindus and Buddhists, known for its temple and the 108 water spouts, set against a stunning mountain backdrop.",
-      "category": "Pilgrimage"
-    },              
-    {
-      "province": "Gandaki",
-      "district": "Tanahun",
-      "municipality": "Bandipur Municipality",
-      "address": "Bandipur",
-      "name": "Bandipur",
-      "image": "/Images/bandipur.jpg",
-      "description": "Bandipur is a picturesque hilltop town known for its preserved cultural heritage, traditional Newari architecture, and stunning views of the Himalayas.",
-      "category": "Cultural Tourism"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Khaireni, Galyang",
-      "name": "Khaireni Waterfall",
-      "description": "A hidden waterfall that is perfect for a refreshing swim and enjoying nature.",
-      "category": "Natural"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Baglung",
-      "municipality": "Dhorpatan Municipality",
-      "address": "Dhorpatan",
-      "name": "Dhorpatan Hunting Reserve",
-      "image": "/Images/dhorpatan.jpg",
-      "description": "Dhorpatan is a renowned hunting reserve and trekking destination, famous for its diverse wildlife and stunning landscapes, located at an altitude of around 2,850 meters (9,350 feet).",
-      "category": "Tourism"
-    },    
-    {
-      "province": "Gandaki",
-      "district": "Kaski",
-      "municipality": "Lekhnath",
-      "address": "Pokhara Pumdikot",
-      "name": "Pumdikot Shiva Statue",
-      "image" : "/Images/pumdikot.jpg",
-      "description": "Pumdikot has the second tallest statue of Shiva in Nepal. The statue itself is 51 feet tall. It sits on a white stupa that adds 57 feet in height, making the entire structure 108 feet high.",
-      "category": "Religious"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Manang",
-      "municipality": "Manang Rural Municipality",
-      "address": "Tilicho Base Camp",
-      "name": "Tilicho Lake",
-      "image": "/Images/tilicho.jpg",
-      "description": "Tilicho Lake is one of the highest lakes in the world, located at an altitude of 4,919 meters (16,138 feet) in the Nepalese Himalayas.",
-      "category": "Tourism"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Kaski",
-      "municipality": "Pokhara Metropolitan City",
-      "address": "Pokhara",
-      "name": "Phewa Lake",
-      "image": "/Images/phewa.jpg",
-      "description": "Phewa Lake is a stunning freshwater lake known for its scenic beauty and the reflection of the Annapurna mountain range, popular for boating and fishing.",
-      "category": "Tourism"
-    },  
-    {
-      "province": "Gandaki",
-      "district": "Kaski",
-      "municipality": "Mardi Rural Municipality",
-      "address": "Annapurna Base Camp",
-      "name": "Annapurna Base Camp",
-      "image": "/Images/abc.jpg",
-      "description": "Annapurna Base Camp is a popular trekking destination located at an altitude of 4,130 meters (13,550 feet), offering breathtaking views of the Annapurna massif.",
-      "category": "Trekking"
-    },      
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang",
-      "address": "Karadikhola, chiuri",
-      "name": "Chiuri Bhir",
-      "image" : "/Images/chiuribhir.png",
-      "description": "It is known to be as an adventerous place with beautiful view of Aadhikhola river below and has a suspension bridge to experience the thrill.",
-      "category": "Religious"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang",
-      "address": "Galyang 03, Upper Galyang",
-      "name": "Mangal Momo House",
-      "image" : " ",
-      "description": "If you are momo lover then you must go visit.",
-      "category": "Food"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Galyang 03 falang",
-      "name": "Karuna Driving Institute",
-      "image" : " ",
-      "description": " A driving school that is providing driving classes from more than 6+ years, A+ driving institute in town.",
-      "category": "School"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Sirsekot",
-      "name": "Akaladevi Temple",
-      "image" : "/Images/akaladevi.png",
-      "description": "It is a ancient temple with wide range of religious status and is considered as templ of very powerful goddess.",
-      "category": "Religious"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Upper Galyang",
-      "name": "Galyang Multiple Campus",
-      "description": "It is an Educational institution affiliated to TU and offers diverse range of Bachelor's levels courses in affordable prices and quality environment.",
-      "category": "Educational"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Lower Galyang",
-      "name": "Pragya Kirana Pasal",
-      "image" : "N/A",
-      "description": "A shop with all the household goods and things, catch it",
-      "category": "Adventure"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "name": "Chirag Higher Secondary School",
-      "address": "Upper Galyang",
-      "description": "It is an Educational institution with highest educational recognitions and quality",
-      "category": "Educational"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Galyang 03 Syangja",
-      "name": "BhuPu Sainik Secondary School",
-      "description": "It is an Educational institution with quality environment.",
-      "category": "Educational"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Galyang 03 Syangja",
-      "name": "Aalam Devi Mandir",
-      "image" : "/Images/aalamdevi.jpg",
-      "description": "It is a religious place located in Galyang Syangja consisting ancient ritual practice.",
-      "category": "Adventure"
-    },
-    {
+[
+  {
+    "province": "Koshi",
+    "district": "Dharan",
+    "municipality": "Dharan sub metropolitan city",
+    "address": "Bijayapur",
+    "name": "BudhaSubba Temple",
+    "image": "/Images/budhasubba.jpg",
+    "description": " Budhasubba Mandir is uniquely notable for its blend of local folklore and the ritual of animal sacrifices, highlighting the community's spiritual and cultural identity",
+    "category": "Religious"
+  },
+  {
+    "province": "Koshi",
+    "district": "Solukhumbu",
+    "municipality": "Khumbu Pasanglhamu Rural Municipality ",
+    "address": "Sagarmatha National Park, Solukhumbu District",
+    "name": "Gokyo Lakes",
+    "image": "/Images/gokyo.jpg",
+    "description": "A series of high-altitude lakes known for their breathtaking views and trekking routes in the Everest region.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Koshi",
+    "district": "Ilam",
+    "municipality": "Mai Municipality",
+    "address": "Mai Pokhari",
+    "name": "Mai Pokhari",
+    "image": "/Images/mai_pokhari.jpg",
+    "description": "Mai Pokhari is a serene pond surrounded by lush forests and is a popular spot for picnics and nature walks.",
+    "category": "Nature"
+  },
+  {
+    "province": "Koshi",
+    "district": "Dhankuta",
+    "municipality": "Dhankuta Municipality",
+    "address": "Hile",
+    "name": "Hile",
+    "image": "/Images/hile.jpg",
+    "description": "Hile is a picturesque town famous for its stunning views of the Himalayas and is a popular stop for trekkers heading to the eastern regions.",
+    "category": "Nature"
+  },
+  {
+    "province": "Koshi",
+    "district": "Udayapur",
+    "municipality": "Udayapur Municipality",
+    "address": "Brahmakhal",
+    "name": "Brahmakhal",
+    "image": "/Images/brahmakhal.jpg",
+    "description": "Brahmakhal is a scenic area in Udayapur known for its beautiful landscapes and cultural significance, making it ideal for trekking and outdoor activities.",
+    "category": "Nature"
+  },
+  {
+    "province": "Koshi",
+    "district": "Makalu-Barun National Park",
+    "municipality": "Makalu Rural Municipality",
+    "address": "Makalu Base Camp",
+    "name": "Makalu Base Camp",
+    "image": "/Images/makalu.jpg",
+    "description": "Makalu Base Camp offers stunning views of the world's fifth-highest mountain, Makalu, and is a popular trekking destination in the eastern Himalayas.",
+    "category": "Trekking"
+  },
+  {
+    "province": "Koshi",
+    "district": "Taplejung",
+    "municipality": "Pathivara Rural Municipality",
+    "address": "Pathivara",
+    "name": "Pathivara Temple",
+    "image": "/Images/pathivara.jpg",
+    "description": "Pathivara Temple is a revered Hindu temple dedicated to the goddess Pathivara, located at an altitude of 3,794 meters (12,448 feet), offering stunning views of the surrounding mountains.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Koshi",
+    "district": "Ilam",
+    "municipality": "Suryodaya Municipality ",
+    "address": "Bijayapur",
+    "name": "Kanyam",
+    "image": "/Images/kanyam.jpg",
+    "description": " Kanyam is a picturesque tea garden village in eastern Nepal, renowned for its lush landscapes and serene atmosphere",
+    "category": "Tourism"
+  },
+  {
+    "province": "Koshi",
+    "district": "Khotang",
+    "municipality": "Halesi Tuwachung Municipality ",
+    "address": " Mahadevasthan,",
+    "name": "Halesi Mahadev",
+    "image": "/Images/halesimahadev.jpg",
+    "description": " It is cave and temple which has  venerated pilgrimage site for Hindus, Buddhists and Kirat.",
+    "category": "Religious"
+  },
+  {
+    "province": "Koshi",
+    "district": "Jhapa",
+    "municipality": "Kankai Municipality",
+    "address": "Kankai",
+    "name": "Kankai",
+    "image": "/Images/kankai.jpg",
+    "description": "Kankai is known for the Kankai Mai Temple, a significant pilgrimage site, and its surrounding natural beauty, attracting both pilgrims and tourists.",
+    "category": "Pilgrimage"
+  },
+  {
+    "province": "Madesh",
+    "district": "Dhanusa",
+    "municipality": "Janakpur sub-metropolitan city ",
+    "address": " Janakpur",
+    "name": "Janakpurdham",
+    "image": "/Images/janakpur.jpg",
+    "description": " It is is renowned as the birthplace of Sita from the Ramayana and a center of Mithila culture and art.",
+    "category": "Religious"
+  },
+  {
+    "province": "Madhesh Province",
+    "district": "Morang",
+    "municipality": "Biratnagar Metropolitan City",
+    "address": "Biratnagar",
+    "name": "Siddhi Vinayak Temple",
+    "image": "/Images/birat.jpg",
+    "description": "Siddhi Vinayak Temple is dedicated to Lord Ganesha and is a significant site for worship, especially during festivals.",
+    "category": "Pilgrimage"
+  },
+  {
+    "province": " Madesh Province ",
+    "district": "Bara",
+    "municipality": "Gadhimai Municipality",
+    "address": "Gadhimai",
+    "name": "Gadhimai Temple",
+    "image": "/Images/gadhimai.jpg",
+    "description": "Gadhimai Temple is a famous Hindu temple dedicated to the goddess Gadhimai, known for its large animal sacrifice festival held every five years, attracting thousands of devotees.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Rasuwa",
+    "municipality": "Langtang Rural Municipality",
+    "address": "Gosaikunda",
+    "name": "Gosaikunda Lake",
+    "image": "/Images/gosaikunda.jpg",
+    "description": "Gosaikunda Lake is a sacred alpine lake situated at an altitude of 4,380 meters (14,370 feet) and is an important pilgrimage site for Hindus.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Nuwakot",
+    "municipality": "Kakani Rural Municipality",
+    "address": "Kakani",
+    "name": "Kakani",
+    "image": "/Images/kakani.jpg",
+    "description": "Kakani is a serene hill station near Kathmandu, known for its panoramic views of the Himalayas and strawberry farming.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Bagmati Province",
+    "district": "Makwanpur",
+    "municipality": "Makwanpur Gadhi",
+    "address": "Chitlang, Makwanpur District",
+    "name": "Chitlang",
+    "image": "/Images/chitlang.jpg",
+    "description": "Chitlang is a charming village in the Makwanpur District, known for its rich cultural heritage, stunning landscapes, and hiking opportunities. It's a popular destination for both local and international tourists.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Kathmandu",
+    "municipality": "Kathmandu Metropolitan City",
+    "address": "Gaushala",
+    "name": "Pashupatinath Temple",
+    "image": "/Images/pasupatinath.jpg",
+    "description": "It is devoted to the Hindu god Shiva in his form as Pashupati, protector of animals.",
+    "category": "Religious"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Lalitpur",
+    "municipality": "Lalitpur Metropolitan City",
+    "address": "Patan",
+    "name": "Krishna Mandir",
+    "image": "/Images/krishnamandir-patan.jpg",
+    "description": "It was a cultural stronghold of the Malla kings of Kathmandu valley",
+    "category": "Religious"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Bhaktapur",
+    "municipality": "Bhaktapur Metropolitan City",
+    "address": "Changunarayan",
+    "name": "Changu Narayan Temple",
+    "image": "/Images/changunarayan.jpg",
+    "description": "It is the oldest temple in Nepal dating back to the 5th century.",
+    "category": "Religious"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Lalitpur",
+    "municipality": "Lalitpur Metropolitan City",
+    "address": "Patan",
+    "name": "Patan Durbar Square",
+    "image": "/Images/patan.jpg",
+    "description": "Patan Durbar Square is a UNESCO World Heritage Site known for its stunning architecture, ancient temples, and rich history.",
+    "category": "Cultural Heritage"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Bhaktapur",
+    "municipality": "Nagarkot Municipality",
+    "address": "Nagarkot",
+    "name": "Nagarkot",
+    "image": "/Images/nagarkot.jpg",
+    "description": "Nagarkot is a popular hill station near Kathmandu, known for its stunning sunrise views over the Himalayas and trekking opportunities.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Sindhupalchok",
+    "municipality": "Panch Pokhari Thangpal Rural Municipality",
+    "address": "Panch Pokhari",
+    "name": "Panch Pokhari",
+    "image": "/Images/pancha_pokhari.jpg",
+    "description": "Panch Pokhari is a sacred site consisting of five lakes, popular among pilgrims and trekkers for its stunning scenery and cultural significance.",
+    "category": "Pilgrimage"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Rasuwa",
+    "municipality": "Langtang Rural Municipality",
+    "address": "Langtang Valley",
+    "name": "Langtang Valley",
+    "image": "/Images/lantang.jpg",
+    "description": "Langtang Valley is a popular trekking destination known for its stunning landscapes, diverse wildlife, and traditional Tamang culture.",
+    "category": "Trekking"
+  },
+  {
+    "province": "Bagmati",
+    "district": "Kathmandu",
+    "municipality": "Kathmandu Metropolitan City",
+    "address": "Phulchoki",
+    "name": "Phulchoki Hill",
+    "image": "/Images/phulchowki.png",
+    "description": "Phulchoki is the highest hill surrounding the Kathmandu Valley, offering beautiful hiking trails, panoramic views, and diverse flora and fauna.",
+    "category": "Hiking"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Kaski",
+    "municipality": "Ghandruk Rural Municipality",
+    "address": "Ghandruk",
+    "name": "Ghandruk",
+    "image": "/Images/ghandruk.jpg",
+    "description": "Ghandruk is a charming Gurung village that offers stunning views of the Annapurna range and serves as a gateway for treks in the Annapurna region.",
+    "category": "Cultural Tourism"
+  },
+  {
+    "province": "Gandaki Province",
+    "district": "Kaski",
+    "municipality": "Pokhara Metropolitan City",
+    "address": "Pokhara, Kaski District",
+    "name": "Tal Barahi Temple ",
+    "image": "/Images/Tal_barahi.jpg",
+    "description": "Located in Phewa Lake, this temple lake is known for its cultural significance and beautiful surroundings.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Gandaki Province",
+    "district": "Kaski",
+    "address": "Near Pokhara, Kaski District",
+    "name": "Begnas Lake",
+    "image": "/Images/begnas_lake.jpg",
+    "description": "Begnas Lake is a serene freshwater lake located about 15 km east of Pokhara. It is known for its tranquil environment, picturesque surroundings, and boating opportunities.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Mustang",
+    "municipality": "Thasang Rural Municipality",
+    "address": "Muktinath",
+    "name": "Muktinath Temple",
+    "image": "/Images/muktinath.jpg",
+    "description": "Muktinath is a sacred site for both Hindus and Buddhists, known for its temple and the 108 water spouts, set against a stunning mountain backdrop.",
+    "category": "Pilgrimage"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Tanahun",
+    "municipality": "Bandipur Municipality",
+    "address": "Bandipur",
+    "name": "Bandipur",
+    "image": "/Images/bandipur.jpg",
+    "description": "Bandipur is a picturesque hilltop town known for its preserved cultural heritage, traditional Newari architecture, and stunning views of the Himalayas.",
+    "category": "Cultural Tourism"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Khaireni, Galyang",
+    "name": "Khaireni Waterfall",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A hidden waterfall that is perfect for a refreshing swim and enjoying nature.",
+    "category": "Natural"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Baglung",
+    "municipality": "Dhorpatan Municipality",
+    "address": "Dhorpatan",
+    "name": "Dhorpatan Hunting Reserve",
+    "image": "/Images/dhorpatan.jpg",
+    "description": "Dhorpatan is a renowned hunting reserve and trekking destination, famous for its diverse wildlife and stunning landscapes, located at an altitude of around 2,850 meters (9,350 feet).",
+    "category": "Tourism"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Kaski",
+    "municipality": "Lekhnath",
+    "address": "Pokhara Pumdikot",
+    "name": "Pumdikot Shiva Statue",
+    "image": "/Images/pumdikot.jpg",
+    "description": "Pumdikot has the second tallest statue of Shiva in Nepal. The statue itself is 51 feet tall. It sits on a white stupa that adds 57 feet in height, making the entire structure 108 feet high.",
+    "category": "Religious"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Manang",
+    "municipality": "Manang Rural Municipality",
+    "address": "Tilicho Base Camp",
+    "name": "Tilicho Lake",
+    "image": "/Images/tilicho.jpg",
+    "description": "Tilicho Lake is one of the highest lakes in the world, located at an altitude of 4,919 meters (16,138 feet) in the Nepalese Himalayas.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Kaski",
+    "municipality": "Pokhara Metropolitan City",
+    "address": "Pokhara",
+    "name": "Phewa Lake",
+    "image": "/Images/phewa.jpg",
+    "description": "Phewa Lake is a stunning freshwater lake known for its scenic beauty and the reflection of the Annapurna mountain range, popular for boating and fishing.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Kaski",
+    "municipality": "Mardi Rural Municipality",
+    "address": "Annapurna Base Camp",
+    "name": "Annapurna Base Camp",
+    "image": "/Images/abc.jpg",
+    "description": "Annapurna Base Camp is a popular trekking destination located at an altitude of 4,130 meters (13,550 feet), offering breathtaking views of the Annapurna massif.",
+    "category": "Trekking"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang",
+    "address": "Karadikhola, chiuri",
+    "name": "Chiuri Bhir",
+    "image": "/Images/chiuribhir.png",
+    "description": "It is known to be as an adventerous place with beautiful view of Aadhikhola river below and has a suspension bridge to experience the thrill.",
+    "category": "Religious"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang",
+    "address": "Galyang 03, Upper Galyang",
+    "name": "Mangal Momo House",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "If you are momo lover then you must go visit.",
+    "category": "Food"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Galyang 03 falang",
+    "name": "Karuna Driving Institute",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": " A driving school that is providing driving classes from more than 6+ years, A+ driving institute in town.",
+    "category": "School"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Sirsekot",
+    "name": "Akaladevi Temple",
+    "image": "/Images/akaladevi.png",
+    "description": "It is a ancient temple with wide range of religious status and is considered as templ of very powerful goddess.",
+    "category": "Religious"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Upper Galyang",
+    "name": "Galyang Multiple Campus",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "It is an Educational institution affiliated to TU and offers diverse range of Bachelor's levels courses in affordable prices and quality environment.",
+    "category": "Educational"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Lower Galyang",
+    "name": "Pragya Kirana Pasal",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A shop with all the household goods and things, catch it",
+    "category": "Adventure"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "name": "Chirag Higher Secondary School",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "address": "Upper Galyang",
+    "description": "It is an Educational institution with highest educational recognitions and quality",
+    "category": "Educational"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Galyang 03 Syangja",
+    "name": "BhuPu Sainik Secondary School",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "It is an Educational institution with quality environment.",
+    "category": "Educational"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Galyang 03 Syangja",
+    "name": "Aalam Devi Mandir",
+    "image": "/Images/aalamdevi.jpg",
+    "description": "It is a religious place located in Galyang Syangja consisting ancient ritual practice.",
+    "category": "Adventure"
+  },
+  {
     "province": "Gandaki",
     "district": "Syangja",
     "municipality": "Galyang Municipality",
     "address": "Galyang 07 Syangja",
     "name": "Siddha Gufa",
-    "image" : "/Images/siddhagufa.jpg",
+    "image": "/Images/siddhagufa.jpg",
     "description": "It is a ancient cave consisting various ancient structures and statues.",
     "category": "Religious"
   },
@@ -447,6 +453,7 @@
     "municipality": "Galyang Municipality",
     "address": "Galyang Bazaar",
     "name": "Old Galyang Bazaar",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
     "description": "A traditional marketplace reflecting the lifestyle and culture of Galyang.",
     "category": "Cultural"
   },
@@ -456,7 +463,7 @@
     "municipality": "Waling Municipality",
     "address": "Waling",
     "name": "Chhaya Chhetra Temple (Chhangchhangdi)",
-    "image" : "/Images/Chhangchhangdi.jpg",
+    "image": "/Images/Chhangchhangdi.jpg",
     "description": "This is an ancient temple containing various religious aspects. This temple is very popular as lord Shiva is worshiped out there.",
     "category": "Religious"
   },
@@ -466,6 +473,7 @@
     "municipality": "Arjunchaupari",
     "address": "Waling-Tansen Road",
     "name": "Pothana Pass",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
     "description": "A beautiful pass offering panoramic views of the hills and terraced farms along the route.",
     "category": "Scenic"
   },
@@ -475,7 +483,7 @@
     "municipality": "Putalibazar Municipality",
     "address": "Syangja",
     "name": "Bhalupahad",
-    "image" : "/Images/bhalupahad.jpg",
+    "image": "/Images/bhalupahad.jpg",
     "description": "Bhalu Pahad, located in Syangja district, Nepal, is a charming hill station known for its scenic beauty and serene environment. Easily accessible via the Siddhartha Highway, it's a popular spot for picnics and sightseeing.",
     "category": "Tourism"
   },
@@ -485,6 +493,7 @@
     "municipality": "Galyang Municipality",
     "address": "Galyang",
     "name": "Bhirkot Fort",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
     "description": "An ancient fort that once served as a military stronghold, now a historical site with scenic views.",
     "category": "Historical"
   },
@@ -494,7 +503,7 @@
     "municipality": "Waling Municipality",
     "address": "sorek",
     "name": "sorek maidan",
-    "image" : "/Images/sorek.jpg",
+    "image": "/Images/sorek.jpg",
     "description": "It is hill providing beautiful scenario with clouds and feels like a way to heaven. Also often professional paragliders also do paraglidings from there",
     "category": "Adventure"
   },
@@ -504,280 +513,297 @@
     "municipality": "Galyang Municipality",
     "address": "Simalchaur",
     "name": "Simalchaur Viewpoint",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
     "description": "A lesser-known viewpoint offering a panoramic view of the Annapurna range and surrounding landscapes.",
     "category": "Scenic"
   },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Waling Municipality",
-      "address": "Waling",
-      "name": "Garausur Mandir",
-      "image" : "/Images/garausur.jpg",
-      "description": "It is a religious place located in Galyang Syangja consisting ancient ritual practice.",
-      "category": "Religious"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Darsing Phedi",
-      "name": "Darsing Cave",
-      "description": "A hidden cave with unique rock formations, rumored to have historical significance.",
-      "category": "Adventure"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Gulmi",
-      "municipality": "Resunga Municipality",
-      "address": "Resunga Hill, Gulmi",
-      "name": "Resunga",
-      "image": "/Images/resunga.jpg",
-      "description": "Resunga is a prominent hill located in Gulmi, known for its panoramic views, lush forests, and the historical Resunga Temple. It is a popular destination for trekking and offers cultural experiences related to the local communities.",
-      "category": "Tourism"
-    },    
-    {
-      "province": "Lumbini",
-      "district": "Palpa",
-      "municipality": "Tansen Municipality",
-      "address": "Tansen",
-      "name": "Rani Mahal",
-      "image" : "/Images/ranimahal.jpg",
-      "description": "Historical palace for a queen made by a king.",
-      "category": "Religious"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Majuwa",
-      "name": "Majuwa Waterfall",
-      "description": "A beautiful waterfall located in a serene environment, popular among locals for relaxation and picnics.",
-      "category": "Nature"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Palpa",
-      "municipality": "Tansen Municipality",
-      "address": "Tansen",
-      "name": "Tansen",
-      "image": "/Images/tansen.jpg",
-      "description": "Tansen is a historical hill town known for its rich culture, beautiful views of the Himalayas, and traditional craftsmanship, especially in weaving and metalwork.",
-      "category": "Cultural Tourism"
-    },    
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Siddharthanagar",
-      "address": "Near Siddhartha Highway, Siddharthanagar, Rupandehi",
-      "name": "Khanchan Dham",
-      "description": "A tranquil spiritual site featuring ancient shrines, meditation areas, and beautiful gardens. It is known for its peaceful environment and historical significance, attracting those seeking spiritual solace.",
-      "category": "Religious"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Devdaha Municipality",
-      "address": "Devdaha, Rupandehi, near Devdaha Market",
-      "name": "Bishwokarma Temple",
-      "description": "This temple is dedicated to Bishwokarma, the deity of craftsmanship and artisans. Surrounded by lush fields and local villages, it serves as a community gathering place for festivals and rituals.",
-      "category": "Religious"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Mayadevi Rural Municipality",
-      "address": "Mayadevi, Rupandehi, near Lumbini Garden",
-      "name": "Puskar Pond",
-      "description": "A serene pond with significant historical ties to the birthplace of Queen Mayadevi, the mother of Buddha. The area is ideal for peaceful reflection and birdwatching.",
-      "category": "Nature"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Siddharthanagar",
-      "address": "Near Gaddhi Danda, Siddharthanagar, Rupandehi",
-      "name": "Gaddhi Danda",
-      "description": "A hill offering panoramic views of the surrounding landscape. It's a perfect spot for hiking, picnics, and watching the sunset.",
-      "category": "Scenic"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Lumbini Sanskritik Municipality",
-      "address": "Near Lumbini, Rupandehi",
-      "name": "Lumbini Museum",
-      "description": "A small yet informative museum displaying artifacts and historical items related to Buddha’s life and the history of Lumbini.",
-      "category": "Cultural"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Siddharthanagar",
-      "address": "Near Siddhartha Highway, Siddharthanagar, Rupandehi",
-      "name": "Shree Amar Singh Thapa Memorial Park",
-      "description": "A well-maintained park dedicated to the local hero Amar Singh Thapa, featuring statues, walking paths, and gardens, making it a great place for family outings.",
-      "category": "Cultural"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Siddharthanagar",
-      "address": "Near Sidhi Chowk, Siddharthanagar, Rupandehi",
-      "name": "Chhath Ghat",
-      "description": "A serene riverside ghat popular among locals during the Chhath festival, offering a peaceful environment for rituals and relaxation.",
-      "category": "Cultural"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Siddharthanagar",
-      "address": "Near Siddhartha Highway, Siddharthanagar, Rupandehi",
-      "name": "Nandani Park",
-      "description": "A public park featuring walking trails, playgrounds, and picnic areas. It’s a favorite spot for families and children to enjoy outdoor activities.",
-      "category": "Nature"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Buddha Nagar Rural Municipality",
-      "address": "Near Kotihawa, Buddha Nagar, Rupandehi",
-      "name": "Kotihawa Stupa",
-      "description": "A lesser-known stupa that holds cultural and historical significance. The site is peaceful and perfect for meditation and contemplation.",
-      "category": "Religious"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Siddharthanagar",
-      "address": "Near Lumbini Gardens, Siddharthanagar, Rupandehi",
-      "name": "Lumbini Cultural Village",
-      "description": "A cultural village showcasing traditional Nepali lifestyle, crafts, and cuisine. Visitors can interact with locals and learn about their customs.",
-      "category": "Cultural"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Siddharthanagar",
-      "address": "Near Siddhartha Highway, Siddharthanagar, Rupandehi",
-      "name": "Tharu Cultural Center",
-      "description": "A center dedicated to preserving and promoting Tharu culture, featuring exhibitions, performances, and traditional crafts.",
-      "category": "Cultural"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Devdaha Municipality",
-      "address": "Near Devdaha, Rupandehi",
-      "name": "Devdaha Sacred Forest",
-      "description": "A lush forest area rich in biodiversity, perfect for nature walks, birdwatching, and experiencing the tranquility of the wilderness.",
-      "category": "Nature"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Siddharthanagar",
-      "address": "Near Siddhartha Highway, Rupandehi",
-      "name": "Maijogmai Lake",
-      "description": "A hidden lake surrounded by lush greenery, ideal for picnics and relaxation away from the bustling tourist areas.",
-      "category": "Nature"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Devdaha Municipality",
-      "address": "Devdaha, near the ancient Devdaha Palace",
-      "name": "Devdaha Palace Ruins",
-      "description": "The remnants of an ancient palace believed to be the residence of Queen Mayadevi. The site provides insight into the historical significance of the area.",
-      "category": "Historical"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Buddha Nagar Rural Municipality",
-      "address": "Near Dhaneswori River, Buddha Nagar, Rupandehi",
-      "name": "Dhaneswori Temple",
-      "description": "A picturesque temple situated along the Dhaneswori River, offering stunning views and a tranquil atmosphere. It’s a popular site for local festivals.",
-      "category": "Religious"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Siddharthanagar",
-      "address": "Siddhartha Highway, Rupandehi, near the border of Lumbini",
-      "name": "Buddha Garden",
-      "description": "A hidden garden featuring various species of plants, statues of Buddha, and peaceful walking paths. It offers a relaxing environment for meditation and enjoying nature.",
-      "category": "Nature"
-    },
-    {
-      "province": "Lumbini",
-      "district": "Rupandehi",
-      "municipality": "Lumbini Sasnkritik Rural Municipality",
-      "address": "Lumbini",
-      "name": "Lumbini",
-      "image" : "/Images/lumbini.png",
-      "description": "Birth Place of Lord Buddha",
-      "category": "Religious"
-    },
-    {
-      "province": "Gandaki",
-      "district": "Syangja",
-      "municipality": "Galyang Municipality",
-      "address": "Kharel Danda",
-      "name": "Kharel Danda Hilltop",
-      "description": "A quiet hilltop perfect for sunset views and peaceful solitude.",
-      "category": "Scenic"
-    },
-    {
-      "province": "Karnali",
-      "district": "Mugu",
-      "municipality": "Rara Rural Municipality",
-      "address": "Rara",
-      "name": "Rara Lake",
-      "image" : "/Images/rara.jpg",
-      "description": "Rara lake is  the largest fresh water lake in the Nepalese Himalayas",
-      "category": "Tourism"
-    },
-    {
-      "province": "Karnali",
-      "district": "Surkhet",
-      "municipality": "Birendranagar Municipality",
-      "address": "Kakre Bihar, Surkhet",
-      "name": "Kakre Bihar",
-      "image": "/Images/kakre_bihar.jpg",
-      "description": "Kakre Bihar is an ancient archaeological site featuring the ruins of a historic Buddhist monastery, attracting researchers and tourists interested in history and spirituality.",
-      "category": "Cultural Heritage"
-    },
-    {
-      "province": "Karnali",
-      "district": "Dolpa",
-      "municipality": "Shey Phoksundo Rural Municipality",
-      "address": "Phoksundo National Park",
-      "name": "Shey Phoksundo Lake",
-      "image": "/Images/shey_phoksundo.jpg",
-      "description": "Shey Phoksundo Lake is the deepest lake in Nepal, located at an altitude of 3,613 meters (11,821 feet) within the stunning Phoksundo National Park.",
-      "category": "Tourism"
-    },    
-    {
-      "province": "Karnali",
-      "district": "Surkhet",
-      "municipality": "Birendranagar Municipality",
-      "address": "Deuti Bajai, Surkhet",
-      "name": "Deuti Bajai",
-      "image": "/Images/deuti_bajai.jpg",
-      "description": "Deuti Bajai is a popular pilgrimage site located in Surkhet, dedicated to the goddess Bajai. It is known for its serene environment and attracts many devotees, especially during festivals.",
-      "category": "Pilgrimage"
-    },    
-    {
-      "province": "Sudurpashchim",
-      "district": "Achham",
-      "municipality": "Badimalika Municipality",
-      "address": "Badimalika",
-      "name": "Badimalika Temple",
-      "image": "/Images/badimalika.jpg",
-      "description": "Badimalika is a significant religious site known for the Badimalika Temple, located at an altitude of about 4,200 meters (13,780 feet), attracting numerous pilgrims and trekkers.",
-    }
-   
-    
-  ]
-
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Waling Municipality",
+    "address": "Waling",
+    "name": "Garausur Mandir",
+    "image": "/Images/garausur.jpg",
+    "description": "It is a religious place located in Galyang Syangja consisting ancient ritual practice.",
+    "category": "Religious"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Darsing Phedi",
+    "name": "Darsing Cave",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A hidden cave with unique rock formations, rumored to have historical significance.",
+    "category": "Adventure"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Gulmi",
+    "municipality": "Resunga Municipality",
+    "address": "Resunga Hill, Gulmi",
+    "name": "Resunga",
+    "image": "/Images/resunga.jpg",
+    "description": "Resunga is a prominent hill located in Gulmi, known for its panoramic views, lush forests, and the historical Resunga Temple. It is a popular destination for trekking and offers cultural experiences related to the local communities.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Palpa",
+    "municipality": "Tansen Municipality",
+    "address": "Tansen",
+    "name": "Rani Mahal",
+    "image": "/Images/ranimahal.jpg",
+    "description": "Historical palace for a queen made by a king.",
+    "category": "Religious"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Majuwa",
+    "name": "Majuwa Waterfall",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A beautiful waterfall located in a serene environment, popular among locals for relaxation and picnics.",
+    "category": "Nature"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Palpa",
+    "municipality": "Tansen Municipality",
+    "address": "Tansen",
+    "name": "Tansen",
+    "image": "/Images/tansen.jpg",
+    "description": "Tansen is a historical hill town known for its rich culture, beautiful views of the Himalayas, and traditional craftsmanship, especially in weaving and metalwork.",
+    "category": "Cultural Tourism"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Siddharthanagar",
+    "address": "Near Siddhartha Highway, Siddharthanagar, Rupandehi",
+    "name": "Khanchan Dham",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A tranquil spiritual site featuring ancient shrines, meditation areas, and beautiful gardens. It is known for its peaceful environment and historical significance, attracting those seeking spiritual solace.",
+    "category": "Religious"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Devdaha Municipality",
+    "address": "Devdaha, Rupandehi, near Devdaha Market",
+    "name": "Bishwokarma Temple",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "This temple is dedicated to Bishwokarma, the deity of craftsmanship and artisans. Surrounded by lush fields and local villages, it serves as a community gathering place for festivals and rituals.",
+    "category": "Religious"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Mayadevi Rural Municipality",
+    "address": "Mayadevi, Rupandehi, near Lumbini Garden",
+    "name": "Puskar Pond",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A serene pond with significant historical ties to the birthplace of Queen Mayadevi, the mother of Buddha. The area is ideal for peaceful reflection and birdwatching.",
+    "category": "Nature"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Siddharthanagar",
+    "address": "Near Gaddhi Danda, Siddharthanagar, Rupandehi",
+    "name": "Gaddhi Danda",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A hill offering panoramic views of the surrounding landscape. It's a perfect spot for hiking, picnics, and watching the sunset.",
+    "category": "Scenic"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Lumbini Sanskritik Municipality",
+    "address": "Near Lumbini, Rupandehi",
+    "name": "Lumbini Museum",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A small yet informative museum displaying artifacts and historical items related to Buddha’s life and the history of Lumbini.",
+    "category": "Cultural"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Siddharthanagar",
+    "address": "Near Siddhartha Highway, Siddharthanagar, Rupandehi",
+    "name": "Shree Amar Singh Thapa Memorial Park",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A well-maintained park dedicated to the local hero Amar Singh Thapa, featuring statues, walking paths, and gardens, making it a great place for family outings.",
+    "category": "Cultural"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Siddharthanagar",
+    "address": "Near Sidhi Chowk, Siddharthanagar, Rupandehi",
+    "name": "Lumbini Chhath Ghat",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A serene riverside ghat popular among locals during the Chhath festival, offering a peaceful environment for rituals and relaxation.",
+    "category": "Cultural"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Siddharthanagar",
+    "address": "Near Siddhartha Highway, Siddharthanagar, Rupandehi",
+    "name": "Nandani Park",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A public park featuring walking trails, playgrounds, and picnic areas. It’s a favorite spot for families and children to enjoy outdoor activities.",
+    "category": "Nature"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Buddha Nagar Rural Municipality",
+    "address": "Near Kotihawa, Buddha Nagar, Rupandehi",
+    "name": "Kotihawa Stupa",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A lesser-known stupa that holds cultural and historical significance. The site is peaceful and perfect for meditation and contemplation.",
+    "category": "Religious"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Siddharthanagar",
+    "address": "Near Lumbini Gardens, Siddharthanagar, Rupandehi",
+    "name": "Lumbini Cultural Village",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A cultural village showcasing traditional Nepali lifestyle, crafts, and cuisine. Visitors can interact with locals and learn about their customs.",
+    "category": "Cultural"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Siddharthanagar",
+    "address": "Near Siddhartha Highway, Siddharthanagar, Rupandehi",
+    "name": "Tharu Cultural Center",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A center dedicated to preserving and promoting Tharu culture, featuring exhibitions, performances, and traditional crafts.",
+    "category": "Cultural"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Devdaha Municipality",
+    "address": "Near Devdaha, Rupandehi",
+    "name": "Devdaha Sacred Forest",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A lush forest area rich in biodiversity, perfect for nature walks, birdwatching, and experiencing the tranquility of the wilderness.",
+    "category": "Nature"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Siddharthanagar",
+    "address": "Near Siddhartha Highway, Rupandehi",
+    "name": "Maijogmai Lake",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A hidden lake surrounded by lush greenery, ideal for picnics and relaxation away from the bustling tourist areas.",
+    "category": "Nature"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Devdaha Municipality",
+    "address": "Devdaha, near the ancient Devdaha Palace",
+    "name": "Devdaha Palace Ruins",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "The remnants of an ancient palace believed to be the residence of Queen Mayadevi. The site provides insight into the historical significance of the area.",
+    "category": "Historical"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Buddha Nagar Rural Municipality",
+    "address": "Near Dhaneswori River, Buddha Nagar, Rupandehi",
+    "name": "Dhaneswori Temple",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A picturesque temple situated along the Dhaneswori River, offering stunning views and a tranquil atmosphere. It’s a popular site for local festivals.",
+    "category": "Religious"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Siddharthanagar",
+    "address": "Siddhartha Highway, Rupandehi, near the border of Lumbini",
+    "name": "Buddha Garden",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A hidden garden featuring various species of plants, statues of Buddha, and peaceful walking paths. It offers a relaxing environment for meditation and enjoying nature.",
+    "category": "Nature"
+  },
+  {
+    "province": "Lumbini",
+    "district": "Rupandehi",
+    "municipality": "Lumbini Sasnkritik Rural Municipality",
+    "address": "Lumbini",
+    "name": "Lumbini",
+    "image": "/Images/lumbini.png",
+    "description": "Birth Place of Lord Buddha",
+    "category": "Religious"
+  },
+  {
+    "province": "Gandaki",
+    "district": "Syangja",
+    "municipality": "Galyang Municipality",
+    "address": "Kharel Danda",
+    "name": "Kharel Danda Hilltop",
+    "image": "https://dummyimage.com/300x200?text=NO+IMAGE",
+    "description": "A quiet hilltop perfect for sunset views and peaceful solitude.",
+    "category": "Scenic"
+  },
+  {
+    "province": "Karnali",
+    "district": "Mugu",
+    "municipality": "Rara Rural Municipality",
+    "address": "Rara",
+    "name": "Rara Lake",
+    "image": "/Images/rara.jpg",
+    "description": "Rara lake is  the largest fresh water lake in the Nepalese Himalayas",
+    "category": "Tourism"
+  },
+  {
+    "province": "Karnali",
+    "district": "Surkhet",
+    "municipality": "Birendranagar Municipality",
+    "address": "Kakre Bihar, Surkhet",
+    "name": "Kakre Bihar",
+    "image": "/Images/kakre_bihar.jpg",
+    "description": "Kakre Bihar is an ancient archaeological site featuring the ruins of a historic Buddhist monastery, attracting researchers and tourists interested in history and spirituality.",
+    "category": "Cultural Heritage"
+  },
+  {
+    "province": "Karnali",
+    "district": "Dolpa",
+    "municipality": "Shey Phoksundo Rural Municipality",
+    "address": "Phoksundo National Park",
+    "name": "Shey Phoksundo Lake",
+    "image": "/Images/shey_phoksundo.jpg",
+    "description": "Shey Phoksundo Lake is the deepest lake in Nepal, located at an altitude of 3,613 meters (11,821 feet) within the stunning Phoksundo National Park.",
+    "category": "Tourism"
+  },
+  {
+    "province": "Karnali",
+    "district": "Surkhet",
+    "municipality": "Birendranagar Municipality",
+    "address": "Deuti Bajai, Surkhet",
+    "name": "Deuti Bajai",
+    "image": "/Images/deuti_bajai.jpg",
+    "description": "Deuti Bajai is a popular pilgrimage site located in Surkhet, dedicated to the goddess Bajai. It is known for its serene environment and attracts many devotees, especially during festivals.",
+    "category": "Pilgrimage"
+  },
+  {
+    "province": "Sudurpashchim",
+    "district": "Achham",
+    "municipality": "Badimalika Municipality",
+    "address": "Badimalika",
+    "name": "Badimalika Temple",
+    "image": "/Images/badimalika.jpg",
+    "description": "Badimalika is a significant religious site known for the Badimalika Temple, located at an altitude of about 4,200 meters (13,780 feet), attracting numerous pilgrims and trekkers."
+  }
+]
