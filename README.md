@@ -2,6 +2,8 @@
 
 **Explore Unexplored Nepal** is a web platform dedicated to promoting the lesser-known regions and hidden gems of Nepal. This project encourages exploration by sharing cultural insights, travel information, and local recommendations, helping users plan unique adventures off the beaten path.
 
+![image](https://github.com/user-attachments/assets/c8ef9945-81b6-4129-a1b7-27ff6ede47e2)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
