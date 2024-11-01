@@ -32,7 +32,7 @@ const App = () => {
       }`}
     >
       <header className="app-header">
-        <h1>Explore Nepal</h1>
+        <h1 className="np-gr">Explore Nepal</h1>
         <div className="sticky-top">
           <Filter
             categories={categories}

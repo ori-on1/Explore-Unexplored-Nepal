@@ -37,3 +37,11 @@ body {
 select {
   border: 1px solid #0dcaf0 !important;
 }
+.np-gr{
+ 
+    /* color: #de6161; */
+    background: linear-gradient(to right, #de6161,#2657eb);
+    -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+  }
