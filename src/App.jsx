@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Tours from "./pages/Tours";
 import HillStation from "./pages/Hill_station";
 import Footer from "./components/Footer";
+import { Hero } from "./components/Hero";
 
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -24,6 +25,7 @@ const App = () => {
     <Router>
       <div className={`App ${darkMode ? "bg-gray-800 text-gray-200" : "bg-gray-100 text-gray-800"}`}>
         <Navbar />
+        <Hero/>
         <header className="app-header">
           <div className="w-full flex justify-center mt-[-50px]">
             <div className="bg-white mx-auto lg:max-w-5xl p-8 rounded-lg shadow-lg">
