@@ -1,54 +1,56 @@
 import React, { useState } from "react";
 import exploreNepal from "./data/exploreNepalData";
 import Filter from "./components/Filter";
-import ProductList from "./components/ProductList";
-import "./App.css";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Tours from "./pages/Tours";
+import HillStation from "./pages/Hill_station";
+import Footer from "./components/Footer";
+import { Hero } from "./components/Hero";
 
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [searchText, setSearchText] = useState("");
   const [darkMode, setDarkMode] = useState(false);
-  const categories = [
-    ...new Set(exploreNepal.map((location) => location.category)),
-  ];
-  const filteredLocations = exploreNepal.filter((location) => {
-    const matchesCategory = selectedCategory
-      ? location.category === selectedCategory
-      : true;
-    const matchesSearch = location.name
-      .toLowerCase()
-      .includes(searchText.toLowerCase());
-    return matchesCategory && matchesSearch;
-  });
+
+  const categories = [...new Set(exploreNepal.map((location) => location.category))];
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
 
   return (
-    <div
-      className={`App ${
-        darkMode ? "bg-dark text-light" : "bg-light text-dark"
-      }`}
-    >
-      <header className="app-header">
-        <h1>Explore Nepal</h1>
-        <div className="sticky-top">
-          <Filter
-            categories={categories}
-            selectedCategory={selectedCategory}
-            setSelectedCategory={setSelectedCategory}
-            searchText={searchText}
-            setSearchText={setSearchText}
-            toggleDarkMode={toggleDarkMode}
-            darkMode={darkMode}
-          />
-        </div>
-      </header>
-      <div className="container">
-        <ProductList locations={filteredLocations} />
+    <Router>
+      <div className={`App ${darkMode ? "bg-gray-800 text-gray-200" : "bg-gray-100 text-gray-800"}`}>
+        <Navbar />
+        <Hero/>
+        <header className="app-header">
+          <div className="w-full flex justify-center mt-[-50px]">
+            <div className="bg-white mx-auto lg:max-w-5xl p-8 rounded-lg shadow-lg">
+              <Filter
+                categories={categories}
+                selectedCategory={selectedCategory}
+                setSelectedCategory={setSelectedCategory}
+                searchText={searchText}
+                setSearchText={setSearchText}
+                toggleDarkMode={toggleDarkMode}
+                darkMode={darkMode}
+              />
+            </div>
+          </div>
+        </header>
+        
+        <Routes>
+          <Route path="/" element={<Home searchText={searchText} selectedCategory={selectedCategory} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/tours" element={<Tours />} />
+          <Route path="/hill_station" element={<HillStation />} />
+        </Routes>
+        <Footer />
       </div>
-    </div>
+    </Router>
   );
 };
 

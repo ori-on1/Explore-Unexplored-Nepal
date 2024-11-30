@@ -10,13 +10,13 @@ const Filter = ({
   darkMode,
 }) => {
   return (
-    <div className="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-3">
-      <div className="d-flex flex-column flex-md-row align-items-start align-items-md-center mb-2 mb-md-0">
+    <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-3">
+      <div className="flex flex-col md:flex-row items-start md:items-center mb-2 md:mb-0">
         <form
-          className="input-group search-bar mb-2 mb-md-0 me-md-2"
-          onSubmit={searchText}
+          className="flex items-center mb-2 md:mb-0 md:mr-2"
+          onSubmit={(e) => e.preventDefault()}
         >
-          <span className="input-group-text" id="basic-addon1">
+          <span className="p-2 bg-gray-200 text-gray-600 rounded-l">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -30,7 +30,7 @@ const Filter = ({
           </span>
           <input
             type="text"
-            className="form-control"
+            className="form-input rounded-r bg-white px-3 py-2 placeholder-gray-500 text-gray-800 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-shadow duration-200 ease-in-out hover:shadow-lg"
             placeholder="Search"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
@@ -39,7 +39,7 @@ const Filter = ({
         <select
           value={selectedCategory}
           onChange={(e) => setSelectedCategory(e.target.value)}
-          className="form-select"
+          className="form-select rounded border border-gray-300 bg-white px-3 py-2 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-shadow duration-200 ease-in-out hover:shadow-lg"
         >
           <option value="">All Categories</option>
           {categories.map((category, index) => (
@@ -49,16 +49,6 @@ const Filter = ({
           ))}
         </select>
       </div>
-      <button
-        className="btn btn-secondary mt-2 mt-md-0 mx-2"
-        onClick={toggleDarkMode}
-      >
-        {darkMode ? (
-          <i className="fa-solid fa-sun"></i>
-        ) : (
-          <i className="fa-solid fa-moon"></i>
-        )}
-      </button>
     </div>
   );
 };
